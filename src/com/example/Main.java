@@ -1,4 +1,7 @@
 package com.example;
+
+import java.sql.SQLOutput;
+
 public class Main {
     public void mathClass() {
         int intValue1 = 56;
@@ -19,6 +22,12 @@ public class Main {
         double absValue = Math.abs(neg);
         System.out.println(absValue);
     }
+    public void booleanValues() {
+        boolean b1 = true;
+        boolean b2 = false;
+        boolean reversed =!b2;
+        System.out.println(reversed);
+    }
     public static void main(String[] args) {
         // Write your code here
         /* for (String s :
@@ -27,6 +36,7 @@ public class Main {
         }
         */
         Main m = new Main();
-        m.mathClass();
+        // m.mathClass();
+        m.booleanValues();
     }
 }
