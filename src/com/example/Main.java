@@ -15,9 +15,6 @@ public class Main {
         System.out.println(result5);
         long rounded = Math.round(result5);
         System.out.println(rounded);
-        int neg = -5;
-        double absValue = Math.abs(neg);
-        System.out.println(absValue);
     }
     public static void main(String[] args) {
         // Write your code here
