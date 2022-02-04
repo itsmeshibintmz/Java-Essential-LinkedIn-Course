@@ -27,6 +27,17 @@ public class Main {
         boolean b2 = false;
         boolean reversed =!b2;
         System.out.println(reversed);
+        reversed = !reversed;
+        System.out.println(reversed);
+        int i = 0;
+        System.out.println(i);
+        boolean b3 = (i!=0);
+        System.out.println(b3);
+        String s = "true";
+        boolean b4 = Boolean.parseBoolean(s);
+        System.out.println(b4);
+        boolean b5 = Boolean.parseBoolean("xyz");
+        System.out.println(b5);
     }
     public static void main(String[] args) {
         // Write your code here
