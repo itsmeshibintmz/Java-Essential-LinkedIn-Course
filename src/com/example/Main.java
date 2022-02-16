@@ -22,6 +22,7 @@ public class Main {
         double absValue = Math.abs(neg);
         System.out.println(absValue);
     }
+
     public void booleanValues() {
         boolean b1 = true;
         boolean b2 = false;
@@ -39,6 +40,22 @@ public class Main {
         boolean b5 = Boolean.parseBoolean("xyz");
         System.out.println(b5);
     }
+
+    public void characterValues() {
+        char c1 = '1';
+        char c2 = '2';
+        char c3 = '3';
+        // System.out.println("Hello from character values");
+        // Printing 3 values separately in one Print Statement
+        System.out.println(c1+" "+c2+" "+c3);
+
+        // Unicode values
+        // Unicode chart can be found here: https://www.ssec.wisc.edu/~tomw/java/unicode.html
+        char nine = '\u0039';
+        char dollar = '\u0024';
+
+    }
+
     public static void main(String[] args) {
         // Write your code here
         /* for (String s :
@@ -49,5 +66,6 @@ public class Main {
         Main m = new Main();
         // m.mathClass();
         m.booleanValues();
+        m.characterValues();
     }
 }
