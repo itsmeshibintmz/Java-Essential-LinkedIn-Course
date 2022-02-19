@@ -4,7 +4,19 @@ eg: String item = new String("Shirt");
 
     String item;
 
-    
+String values are instances of java.lang.String
+
+** Declaring a String
+    String string1 =  new String("Hello");
+    String string2 = "hello!";
+
+A string contains an array of character values
+
+hello = {h, e, l, l, o}
+
+String objects are immutable
+
+Reseting the value of a String creates a new object 
 
 
 
