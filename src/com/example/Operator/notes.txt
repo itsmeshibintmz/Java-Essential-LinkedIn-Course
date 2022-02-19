@@ -50,3 +50,10 @@ eg: String s1 = "hello";
         System.out.println("They don't match!");
     }
 
+** Logical operators
+&&              AND
+||              OR
+?=              Ternary(shorthand if-then)
+
+eg: String message = i == 1 ? "There is 1" : "There are " + i ;
+
