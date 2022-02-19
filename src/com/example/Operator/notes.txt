@@ -1,0 +1,21 @@
+Types of Operators
+1: Equality
+2: Assignment
+3: Mathematical
+4: Logical
+5: Ternary (shorthand logical)
+
+ ** Assignment with Math Operators
+int intValue;
+int intValue = 10; // Simple assignment
+
+** Assignment and simple math
+int intValue = intValue + 10;
+
+** Incrementing and decrementing
+int intValue = 10;
+intValue++; // Increment by 1
+intValue--; // Decrement by 1
+intValue += 5; // Increment by 5
+
+ 
