@@ -18,5 +18,3 @@ String objects are immutable
 
 Reseting the value of a String creates a new object 
 
-
-
