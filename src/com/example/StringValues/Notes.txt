@@ -1,0 +1,10 @@
+** Creating an Instance of a Class
+* refered to as initialization or instantiation
+eg: String item = new String("Shirt");
+
+    String item;
+
+    
+
+
+
