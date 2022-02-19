@@ -56,4 +56,5 @@ eg: String s1 = "hello";
 ?=              Ternary(shorthand if-then)
 
 eg: String message = i == 1 ? "There is 1" : "There are " + i ;
+    System.out.println(message);
 
