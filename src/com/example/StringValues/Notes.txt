@@ -18,3 +18,21 @@ String objects are immutable
 
 Reseting the value of a String creates a new object 
 
+** char array to String
+
+char[] chars = {"H", "e", "l", "l", "o"};
+String s = new String(chars);
+System.out.println(s);
+
++ to concatenate the string
+eg: String s = "Shirt size: ";
+    String size = "M";
+    String description = s + size;
+    System.out.println(description);
+    description += ", very elegant";
+
+Other methods:
+eg: description.toUpperCase();
+    s.charAt(4);
+    s.getBytes();
+    
