@@ -1,0 +1,38 @@
+** Creating an Instance of a Class
+* refered to as initialization or instantiation
+eg: String item = new String("Shirt");
+
+    String item;
+
+String values are instances of java.lang.String
+
+** Declaring a String
+    String string1 =  new String("Hello");
+    String string2 = "hello!";
+
+A string contains an array of character values
+
+hello = {h, e, l, l, o}
+
+String objects are immutable
+
+Reseting the value of a String creates a new object 
+
+** char array to String
+
+char[] chars = {"H", "e", "l", "l", "o"};
+String s = new String(chars);
+System.out.println(s);
+
++ to concatenate the string
+eg: String s = "Shirt size: ";
+    String size = "M";
+    String description = s + size;
+    System.out.println(description);
+    description += ", very elegant";
+
+Other methods:
+eg: description.toUpperCase();
+    s.charAt(4);
+    s.getBytes();
+    

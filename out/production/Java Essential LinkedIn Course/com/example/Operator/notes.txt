@@ -1,0 +1,60 @@
+Types of Operators
+1: Equality
+2: Assignment
+3: Mathematical
+4: Logical
+5: Ternary (shorthand logical)
+
+ ** Assignment with Math Operators
+int intValue;
+int intValue = 10; // Simple assignment
+
+** Assignment and simple math
+int intValue = intValue + 10;
+
+** Incrementing and decrementing
+int intValue = 10;
+intValue++; // Increment by 1
+intValue--; // Decrement by 1
+intValue += 5; // Increment by 5
+
+** Postfix vs. Prefix Incrementing
+int intValue = 10;
+
+System.out.println(intValue++); // Postfix
+System.out.println(++intValue); // Prefix
+
+** Equality operator
+eg: if(this == that) { 
+    System.out.println("They match!");
+}
+
+Inequality
+if(this != that) { 
+    System.out.println("They don't match!");
+}
+
+** Comparing values
+>               Greater than
+<               Less than
+>=              Greater than or equal to
+<=              Less than or equal to
+instanceof     Class identification
+
+** Comparing strings
+eg: String s1 = "hello";
+    String s2 = "hello";
+    if (s1.equals(s2)) {
+        System.out.println("They match!");
+    } else {
+        System.out.println("They don't match!");
+    }
+
+** Logical operators
+&&              AND
+||              OR
+?=              Ternary(shorthand if-then)
+
+eg: String message = i == 1 ? "There is 1" : "There are " + i ;
+    System.out.println(message);
+
