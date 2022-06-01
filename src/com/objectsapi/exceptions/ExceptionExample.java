@@ -1,6 +1,6 @@
 package com.objectsapi.exceptions;
 
-public class Exception {
+public class ExceptionExample {
     public static void main(String[] args) {
 //        System.out.println("Hello World");
 //        int x = 1;
