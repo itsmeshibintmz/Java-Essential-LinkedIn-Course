@@ -15,4 +15,7 @@ public class Exception {
         System.out.println(nothing);
         System.out.println("string length= " + nothing.length());
     }
+
+    public void printStackTrace() {
+    }
 }
