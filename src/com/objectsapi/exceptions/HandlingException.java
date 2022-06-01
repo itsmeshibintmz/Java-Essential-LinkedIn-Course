@@ -5,10 +5,14 @@ public class HandlingException {
         try {
             String welcome = "Welcome";
             char[] chars = welcome.toCharArray();
-            char lastChar = chars[chars.length];
+            char lastChar = chars[chars.length - 1];
             System.out.println("Last char:" + lastChar);
-        } catch (Exception e) {
+
+            String nothing = null;
+            System.out.println(nothing.length());
+        } catch (ArrayIndexOutOfBoundsException e) {
             e.printStackTrace();
+            return;
         }
         System.out.println("Code ran success");
     }
