@@ -28,6 +28,16 @@ public class MultipleCatch {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+
+        try {
+            doSomething();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         System.out.println("Code ran success");
+    }
+
+    public static void doSomething() throws InterruptedException {
+        Thread.sleep(1000);
     }
 }
